@@ -32,3 +32,24 @@ Author: Marcus Zhou
 SileoDepiction: https://thestrugglingdoge.github.io/repo/sileodepictions/com.marcuszhou.NineAnimator/depiction.json
 Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.marcuszhou.NineAnimator
 Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/nineanimpic.jpg
+
+Package: com.hieeusbowr.tweakConfigurator_0.3-2_iphoneos-arm
+Version: 0.3-2
+Section: Tweaks
+Maintainer: hieubo <hieu01412@gmail.com>
+Depends: firmware (>=12.4)
+Architecture: iphoneos-arm
+Filename: ./debs/com.hieeusbowr.tweakConfigurator_0.3-2_iphoneos-arm
+Size: 256
+MD5sum: 0ad4c40fb31d8b8e4a173f05db5e39ba
+SHA1: 61ba5cdfec356d1e472e0b2ce112095d63a6be0a
+SHA256: 61cdccada91505ed5f7b6d03584d8b8cc1aea9e2b733942e5950ef9554c0e449
+SHA512: 729911dc68cf8c8cabfa2f4bc8f7b0d40d7438d0c5b1dd6e00c642ef891dbc37ed3f28b31811e959333e65dc705aeb85dba5a9fd14ff0d90ec5af7915647242d 
+Description: thích hợp với ios 12.4
+Name:  TweakConfigurator ios 12.4
+Author: hieubo <hieu01412@gmail.com>
+Depiction: https://hieeusbowr.github.io/depictions/?p=com.hieeusbowr.tweakConfigurator_0.3-2_iphoneos-arm
+SileoDepiction: https://thestrugglingdoge.github.io/repo/sileodepictions/com.marcuszhou.NineAnimator/depiction.json
+Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.marcuszhou.NineAnimator
+Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/nineanimpic.jpg
+
