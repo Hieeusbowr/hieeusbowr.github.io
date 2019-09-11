@@ -33,13 +33,13 @@ SileoDepiction: https://thestrugglingdoge.github.io/repo/sileodepictions/com.mar
 Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.marcuszhou.NineAnimator
 Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/nineanimpic.jpg
 
-Package: com.hieeusbowr.tweakConfigurator_0.3-2_iphoneos-arm
+Package: tweakConfigurator_0.3-2_iphoneos-arm
 Version: 0.3-2
 Section: Tweaks
 Maintainer: hieubo <hieu01412@gmail.com>
 Depends: firmware (>=12.4)
 Architecture: iphoneos-arm
-Filename: ./debs/com.hieeusbowr.tweakConfigurator_0.3-2_iphoneos-arm
+Filename: ./debs/tweakConfigurator_0.3-2_iphoneos-arm
 Size: 256
 MD5sum: 0ad4c40fb31d8b8e4a173f05db5e39ba
 SHA1: 61ba5cdfec356d1e472e0b2ce112095d63a6be0a
