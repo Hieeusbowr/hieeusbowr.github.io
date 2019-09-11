@@ -1,16 +1,16 @@
 <package>
 	<id>com.supermamon.fullpackage</id>
 	<name>Full Package</name>
-	<version>2.0.0-1</version>
+	<version>1.8.0-b22</version>
 	<compatibility>
 		<firmware>
-			<miniOS>7.0</miniOS>
+			<miniOS>12.4</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
+		<package>IOKit Tools</package>
 	</dependencies>
-	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
+	<shortDescription>Tương thích 12.4</shortDescription>
 	<descriptionlist>
 		<description>This is an package will full depictions.</description>
 		<description>It has more description lines.</description>
