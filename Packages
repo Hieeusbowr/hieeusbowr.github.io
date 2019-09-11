@@ -49,6 +49,8 @@ Architecture: iphoneos-arm
 Filename: ./debs/TweakConfigurator_0.3-2_iphoneos-arm.deb
 Size: 256
 MD5sum: 0ad4c40fb31d8b8e4a173f05db5e39ba
+SHA1: 61ba5cdfec356d1e472e0b2ce112095d63a6be0a
+SHA256: 61cdccada91505ed5f7b6d03584d8b8cc1aea9e2b733942e5950ef9554c0e449
 Description: thích hợp với ios 12.4
 Name:  TweakConfigurator ios 12.4
 Author: hieubo <hieu01412@gmail.com>
