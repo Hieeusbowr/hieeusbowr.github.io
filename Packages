@@ -40,4 +40,21 @@ Name:  batterylife ios 12.4
 Author: hieubo <hieu01412@gmail.com>
 Depiction: https://hieeusbowr.github.io/depictions/?p=batterylife_1.8.0~b22_iphoneos-arm
 
+Package: TweakConfigurator_0.3-2_iphoneos-arm
+Version: 0.3-2
+Section: Tweaks
+Maintainer: hieubo <hieu01412@gmail.com>
+Depends: firmware (>=12.4)
+Architecture: iphoneos-arm
+Filename: ./debs/TweakConfigurator_0.3-2_iphoneos-arm.deb
+Size: 256
+MD5sum: 0ad4c40fb31d8b8e4a173f05db5e39ba
+Description: thích hợp với ios 12.4
+Name:  TweakConfigurator ios 12.4
+Author: hieubo <hieu01412@gmail.com>
+Depiction: https://hieeusbowr.github.io/depictions/?p=TweakConfigurator_0.3-2_iphoneos-arm
+
+
+
+
 
