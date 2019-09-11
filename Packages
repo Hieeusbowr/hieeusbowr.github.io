@@ -30,7 +30,7 @@ Package: batterylife_1.8.0~b22_iphoneos-arm
 Version: 1.8.0-b22
 Section: Tweaks
 Maintainer: hieubo <hieu01412@gmail.com>
-Depends: firmware (>=12.4), IOKit Tools
+Depends: firmware (>=12.4)
 Architecture: iphoneos-arm
 Filename: ./debs/batterylife_1.8.0~b22_iphoneos-arm.deb
 Size: 25300
