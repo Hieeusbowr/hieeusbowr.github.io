@@ -60,7 +60,7 @@ Maintainer: hieubo <hieu01412@gmail.com>
 Depends:  mobilesubstrate, preferenceloader, firmware (>=11.2)
 Architecture: iphoneos-arm
 Filename: ./debs/snapper2_2.2_iphoneos-arm.deb
-Size: 242.386
+Size: 242386
 MD5sum: d7546d01e65928287b7b2a1527d23351
 SHA1: 42b29ab0357f703dd7977b03cc04e37f71e13008
 SHA256: d516fae0b18d21033375286f942b83f93c005456139411a556396994706fdf0d
