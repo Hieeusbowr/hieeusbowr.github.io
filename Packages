@@ -60,7 +60,7 @@ Maintainer: hieubo <hieu01412@gmail.com>
 Depends:  mobilesubstrate, preferenceloader, firmware (>=11.2)
 Architecture: iphoneos-arm
 Filename: ./debs/snapper2_2.2_iphoneos-arm.deb
-Size: 256
+Size: 2367
 MD5sum: d7546d01e65928287b7b2a1527d23351
 SHA1: 42b29ab0357f703dd7977b03cc04e37f71e13008
 SHA256: d516fae0b18d21033375286f942b83f93c005456139411a556396994706fdf0d
@@ -68,8 +68,8 @@ SHA512: 8bd32916cbdddb334ebfced3e083c8b30cee084e62745432b880b98252d8ac35a175c775
 Description: thích hợp với ios 12.4
 Name:  snapper ios 12.4
 Author: hieubo <hieu01412@gmail.com>
-Depiction: https://hieeusbowr.github.io/depictions/?p=com.hieeusbowr.tweakConfigurator_0.3-2_iphoneos-arm
+Depiction: https://hieeusbowr.github.io/depictions/?p=snapper2_2.2_iphoneos-arm
 SileoDepiction: https://thestrugglingdoge.github.io/repo/sileodepictions/com.marcuszhou.NineAnimator/depiction.json
-Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.marcuszhou.NineAnimator
-Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/nineanimpic.jpg
+Depiction: https://hieeusbowr.github.io/depictions/?p=snapper2_2.2_iphoneos-arm
+Icon: https://hieeusbowr.github.io/assets/TweakIcons/nineanimpic.jpg
 
