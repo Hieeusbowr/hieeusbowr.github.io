@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+html,
+body {
+    font-family: Noto Sans;
+}
+
+.e3-contact {
+    width: 100%;
+    height: 50px;
+    background: #44bd32;
+}
+
+.e3-contact .e3-contact-left .nav-link {
+    float: left;
+    color: #ffffff !important;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.e3-contact .e3-contact-right .nav-link {
+    float: right;
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.e3-contact-right .btn-login {
+    padding: 8px 10px 8px 10px;
+    border-radius: 12px;
+    box-shadow: 1px 2px #000000;
+}
+
+.navbar {
+    background: #ffffff !important;
+}
+
+.e3-contact-right .btn-dark {
+    background: #40739e;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    font-size: 20px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #4cd137;
+}
+
+.navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #4cd137;
+}

@@ -1,0 +1,29 @@
+#clouds {
+  margin-top: 3rem;
+  fill: #353b48;
+  stroke: #353b48;
+}
+#footer {
+  background: #353b48;
+}
+.footer-copyright {
+  background: #2f3640;
+}
+#footer .row {
+  color: #44bd32;
+}
+#footer .row a {
+  color: #ffffff;
+}
+#footer .row a:hover {
+  color: #dff800;
+}
+.footer-copyright,
+.footer-copyright a {
+  color: #ffffff;
+}
+.footer-copyright a:hover {
+  color: #dff800;
+}
+.logo-footer {
+}
