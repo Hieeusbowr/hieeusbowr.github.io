@@ -13,8 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/e3-content.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-
-
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -59,8 +58,8 @@
                 </a>
             </div>
             <div class="e3-contact-right container ml-auto">
-                <a class="nav-link btn btn-dark btn-small btn-login" href="#">Đăng nhập</a>
-                <a class="nav-link" href="signup.html">Đăng Ký</a>
+                <a class="nav-link btn btn-dark btn-small btn-login" href="login.html">Đăng nhập</a>
+                <a class="nav-link" href="#">Đăng Ký</a>
             </div>
         </div>
         <div class="e3-navigation container">
@@ -110,12 +109,57 @@
             </nav>
         </div>
     </div>
+    <!-- content -->
+    <div id="content">
+        <div class="e3-bc-signup">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item "><a href="#">
+                            <i class="fas fa-home"> Trang chủ</i>
+                        </a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <i class="far fa-edit"> Đăng Ký</i>
+                    </li>
+                </ol>
+            </nav>
+            <div class=" e3-signup container">
+                <div class="col-md-6 offset-md-5">
+                    <div class="row myborder">
+                        <h4 style="color: #44bd32; margin: initial; margin-bottom: 10px;" class="text-center">ĐĂNG KÝ
+                            TÀI KHOẢN MỚI</h4>
+                        <hr>
+                        <div class="input-group margin-bottom-20">
+                            <span class="input-group-addon"><i class="fas fa-user mycolor"></i></span>
+                            <input size="10" maxlength="255" class="form-control" placeholder="Tên tài khoản"
+                                name="UserRegistration[username]" id="UserRegistration_username" type="text"> </div>
+                        <div class="input-group margin-bottom-20">
+                            <span class="input-group-addon"><i class="fas fa-key  mycolor"></i></span>
+                            <input size="60" maxlength="255" class="form-control" placeholder="Mật khẩu"
+                                name="[password]" id="UserRegistration_password" type="password"> </div>
+                        <div class="input-group margin-bottom-20">
+                            <span class="input-group-addon"><i class="fas fa-key  mycolor"></i></span>
+                            <input size="60" maxlength="255" class="form-control" placeholder="Nhập lại mật khẩu"
+                                name="[password2]" id="UserRegistration_password2" type="password"> </div>
+                        <div class="input-group margin-bottom-20">
+                            <span class="input-group-addon"><i class="fas fa-user mycolor"></i></span>
+                            <input size="60" maxlength="255" class="form-control" placeholder="Họ và Tên"
+                                name="UserRegistration[name]" id="UserRegistration_name" type="text"> </div>
+                        <div class="input-group margin-bottom-20">
+                            <span class="input-group-addon"><i class="fas fa-envelope mycolor"></i></span>
+                            <input size="60" maxlength="255" class="form-control" placeholder="Email"
+                                name="UserRegistration[address]" id="UserRegistration_address" type="text"> </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn-u pull-left  " type="submit">Đăng Ký</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-
-
-
-
+            </div>
+        </div>
+    </div>
+    </div>
     <div id="footer">
         <!-- Footer -->
         <footer class="page-footer font-small blue pt-4 wow fadeInUp">
