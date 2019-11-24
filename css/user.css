@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+html,
+body {
+  font-family: Noto Sans;
+}
+
+#content{
+    background: #44bd32;
+    width: 100%;
+    height: 70rem;
+}
+
+.e3-contact {
+  width: 100%;
+  height: 70px;
+  background: #44bd32;
+}
+
+.e3-contact .e3-contact-left .nav-link {
+  float: left;
+  color: #ffffff !important;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.e3-contact .e3-contact-right .nav-link {
+  float: right;
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.box-user {
+  background: #ffffff;
+}
+
+.e3-contact-right .btn-login {
+  padding: 8px 10px 8px 10px;
+  border-radius: 12px;
+  box-shadow: 1px 2px #000000;
+  font-size: 8px;
+}
+
+.navbar {
+  background: #ffffff !important;
+}
+
+.e3-contact-right .btn-dark {
+  background: #40739e;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #000000;
+  font-size: 18px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #4cd137;
+}
+
+.navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  color: #4cd137;
+}
+
+
+.breadcrumb{
+    padding-left :11rem;
+}
+.breadcrumb .breadcrumb-item a{
+    color: black;
+}
+.breadcrumb .breadcrumb-item a:hover{
+    color: #44bd32;
+}
+.breadcrumb .breadcrumb-item {
+    color: #f7280c;
+}
+
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 4rem;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+
+}
+.profile-usermenu .profile-detail ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 60rem;
+}
+.logout-user{
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.profile-greeting{
+    width: 70%;
+    height: 3rem;
+    background: #0097e6;
+    margin: 0rem 0rem 2rem 8rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px; 
+}
+.profile-thongbao{
+    font-size: 20px;
+}
+.profile-thongbao span{
+    background: #e1b12c;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.thongbao-content{
+    margin:10rem 0rem 10rem 0rem ;
+    font-size: 20px;
+}
+hr{
+    color: 2px solid #000000;
+}
