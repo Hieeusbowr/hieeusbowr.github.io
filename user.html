@@ -60,9 +60,20 @@
             </div>
             <div class="e3-contact-right container">
                 <div class="box-user">
-                    <span class="nav-link"><img src="image/user.jpg" style="width:50px; height: 50px;" class="img-fluid"
-                            alt=""></span>
-                    <span href="#" class="nav-link">Thành viên: <a href="#" class="nav-link">Nguyễn Văn Chính</a></span>
+                    <div class="dropdown">
+                        <div class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <img src="image/user.jpg" style="width:40px; height: 40px;" class="img-fluid" alt="">
+                        </div>
+                        <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#" class="dropdown-item"><i class="far fa-envelope"></i> 0 Tin nhắn</a>
+                            <a class="dropdown-item" href="#">Hỏi đáp</a>
+                            <a class="dropdown-item" href="login.html">Thoát</a>
+                        </div>
+                    </div>
+                    <div class="info-vertical">
+                        <a href="#" class="nav-link mt-2 ml-2">Nguyễn Văn Chính</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -96,9 +107,9 @@
                                 Tiếng Anh lớp 3 mở rộng
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Get Ready For Third Grade</a>
-                                <a class="dropdown-item" href="#">Amazing Science 3</a>
-                                <a class="dropdown-item" href="#">Get it Up 3</a>
+                                <a class="dropdown-item" href="tamr.html">Get Ready For Third Grade</a>
+                                <a class="dropdown-item" href="tamr.html">Amazing Science 3</a>
+                                <a class="dropdown-item" href="tamr.html">Get it Up 3</a>
 
                             </div>
                         </li>
@@ -155,6 +166,8 @@
                             <div class="profile-detail">
                                 <ul>
                                     <li class="nav-link text-uppercase text-success">Tiếng anh sơ cấp</li>
+                                    <li><span class="text-info text-uppercase">Tuổi:</span> 8</li>
+
                                     <li><span class="text-info text-uppercase">Gới tính:</span> Nam</li>
                                     <li><span class="text-info text-uppercase">Điểm học bạ:</span> 9</li>
                                     <li><span class="text-info text-uppercase">Hỏi đáp:</span> 9 câu hỏi</li>
@@ -185,120 +198,118 @@
                             <span class="text-uppercase">hỏi đáp</span>
                         </div>
                         <div class="comment">
-                                <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
-                                <script>
-                                    tinymce.init({
-                                        selector: "textarea",
-                                        plugins: [
-                                            "advlist autolink lists link image charmap print preview anchor",
-                                            "searchreplace visualblocks code fullscreen",
-                                            "insertdatetime media table contextmenu paste"
-                                        ],
-                                        toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
-                                    });
-                                </script>
-
-
-                                <!-- the comment box -->
-                                <div class="well">
-                                    <h4><i class="fa fa-paper-plane-o"></i> Mời bạn nhập câu hỏi</h4>
-                                    <form role="form">
-                                        <div class="form-group">
-                                            <textarea class="form-control" rows="3"></textarea>
-                                        </div>
-                                        <button type="submit" name="say" value="" class="btn btn-primary"> Gửi đi</button>
-                                    </form>
-                                </div>
-                                </script>
+                            <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+                            <script>
+                                tinymce.init({
+                                    selector: "textarea",
+                                    plugins: [
+                                        "advlist autolink lists link image charmap print preview anchor",
+                                        "searchreplace visualblocks code fullscreen",
+                                        "insertdatetime media table contextmenu paste"
+                                    ],
+                                    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+                                });
+                            </script>
+                            <!-- the comment box -->
+                            <div class="well">
+                                <h4><i class="fa fa-paper-plane-o"></i> Mời bạn nhập câu hỏi</h4>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" name="say" value="" class="btn btn-primary"> Gửi đi</button>
+                                </form>
                             </div>
+                            </script>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="footer">
-            <!-- Footer -->
-            <footer class="page-footer font-small blue pt-4">
+    </div>
+    <div id="footer">
+        <!-- Footer -->
+        <footer class="page-footer font-small blue pt-4">
 
-                <!-- Footer Links -->
-                <div class="container text-center text-md-left">
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
 
-                    <!-- Grid row -->
-                    <div class="row">
+                <!-- Grid row -->
+                <div class="row">
 
-                        <!-- Grid column -->
-                        <div class="col-md-6 mt-md-0 mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
 
-                            <!-- Content -->
-                            <h5 class="text-uppercase">English3 - Tiếng Anh lớp 3</h5>
-                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor </p>
-                        </div>
-                        <!-- Grid column -->
+                        <!-- Content -->
+                        <h5 class="text-uppercase">English3 - Tiếng Anh lớp 3</h5>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor </p>
+                    </div>
+                    <!-- Grid column -->
 
-                        <hr class="clearfix w-100 d-md-none pb-3">
+                    <hr class="clearfix w-100 d-md-none pb-3">
 
-                        <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
 
-                            <!-- Links -->
-                            <h5 class="text-uppercase">Thông Tin</h5>
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Thông Tin</h5>
 
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#!">Nguyễn Trung Hiếu</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Đào Văn Chính</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Nguyễn Quang Hà</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Nguyễn Thị Quỳnh</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Grid column -->
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Nguyễn Trung Hiếu</a>
+                            </li>
+                            <li>
+                                <a href="#!">Đào Văn Chính</a>
+                            </li>
+                            <li>
+                                <a href="#!">Nguyễn Quang Hà</a>
+                            </li>
+                            <li>
+                                <a href="#!">Nguyễn Thị Quỳnh</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
 
-                        <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
 
-                            <!-- Links -->
-                            <h5 class="text-uppercase">Liên Kết</h5>
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Liên Kết</h5>
 
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#!">Bộ giáo dục và đào tạo</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Đại học Sư Phạm Hà Nội</a>
-                                </li>
-                                <li>
-                                    <a href="#!"></a>
-                                </li>
-                                <li>
-                                    <a href="#!"></a>
-                                </li>
-                            </ul>
-
-                        </div>
-                        <!-- Grid column -->
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Bộ giáo dục và đào tạo</a>
+                            </li>
+                            <li>
+                                <a href="#!">Đại học Sư Phạm Hà Nội</a>
+                            </li>
+                            <li>
+                                <a href="#!"></a>
+                            </li>
+                            <li>
+                                <a href="#!"></a>
+                            </li>
+                        </ul>
 
                     </div>
-                    <!-- Grid row -->
+                    <!-- Grid column -->
 
                 </div>
-                <!-- Footer Links -->
+                <!-- Grid row -->
 
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                    <a href="#"> english3.com</a>
-                </div>
-                <!-- Copyright -->
+            </div>
+            <!-- Footer Links -->
 
-            </footer>
-            <!-- Footer -->
-        </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="#"> english3.com</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
 </body>
