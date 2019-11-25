@@ -9,8 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/user.css">
+    <link rel="stylesheet" type="text/css" href="css/e3-header.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="icon" href="image/logo_bgwhite.png">
 
@@ -58,23 +59,9 @@
                     </i>
                 </a>
             </div>
-            <div class="e3-contact-right container">
-                <div class="box-user">
-                    <div class="dropdown">
-                        <div class="dropdown-toggle nav-link" data-toggle="dropdown">
-                            <img src="image/user.jpg" style="width:40px; height: 40px;" class="img-fluid" alt="">
-                        </div>
-                        <div class="dropdown-menu dropdown-menu-right">
-                                <a href="#" class="dropdown-item"><i class="far fa-envelope"></i> 0 Tin nhắn</a>
-                            <a class="dropdown-item" href="#">Hỏi đáp</a>
-                            <a class="dropdown-item" href="login.html">Thoát</a>
-                        </div>
-                    </div>
-                    <div class="info-vertical">
-                        <a href="#" class="nav-link mt-2 ml-2">Nguyễn Văn Chính</a>
-                    </div>
-
-                </div>
+            <div class="e3-contact-right container ml-auto">
+                <a class="nav-link btn btn-dark btn-small btn-login" href="login.html">Đăng nhập</a>
+                <a class="nav-link" href="signup.html">Đăng Ký</a>
             </div>
         </div>
         <div class="e3-navigation container">
@@ -107,9 +94,9 @@
                                 Tiếng Anh lớp 3 mở rộng
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="tamr.html">Get Ready For Third Grade</a>
-                                <a class="dropdown-item" href="tamr.html">Amazing Science 3</a>
-                                <a class="dropdown-item" href="tamr.html">Get it Up 3</a>
+                                <a class="dropdown-item" href="#">Get Ready For Third Grade</a>
+                                <a class="dropdown-item" href="#">Amazing Science 3</a>
+                                <a class="dropdown-item" href="#">Get it Up 3</a>
 
                             </div>
                         </li>
@@ -125,104 +112,53 @@
         </div>
     </div>
     <div id="content">
-        <div class="e3-bc-user">
+        <div class="e3-bc-login">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item "><a href="login.html">
-                            <i class="fas fa-user"> Trang chủ</i>
+                            <i class="fas fa-home"> Trang chủ</i>
+                        </a></li>
+                    <li class="breadcrumb-item "><a href="login.html">
+                            <i class="fas fa-book"> Bài kiểm tra mẫu</i>
                         </a></li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        <i class="fas fa-book"> Trang cá nhân</i>
+                        <i class="far fa-edit"> Unit 6: stand up!</i>
                     </li>
                 </ol>
             </nav>
         </div>
-        <div class="container">
-            <div class="row profile wow fadeInUp">
-                <div class="col-md-3">
-                    <div class="profile-sidebar justify-content-center">
-                        <!-- SIDEBAR USERPIC -->
-                        <div class="profile-userpic">
-                            <img src="image/user.jpg" class="img-responsive" alt="">
-                        </div>
-                        <!-- END SIDEBAR USERPIC -->
-                        <!-- SIDEBAR USER TITLE -->
-                        <div class="profile-usertitle">
-                            <div class="profile-usertitle-name">
-                                Nguyễn Văn Chính
-                            </div>
-                            <div class="profile-usertitle-job">
-                                Thành viên
-                            </div>
-                        </div>
-                        <!-- END SIDEBAR USER TITLE -->
-                        <!-- SIDEBAR BUTTONS -->
-                        <div class="profile-userbuttons">
-                            <button type="button" class="btn btn-success btn-sm">nhắn tin</button>
-                        </div>
-                        <!-- END SIDEBAR BUTTONS -->
-                        <!-- SIDEBAR MENU -->
-                        <div class="profile-usermenu ">
-                            <div class="profile-detail">
-                                <ul>
-                                    <li class="nav-link text-uppercase text-success">Tiếng anh sơ cấp</li>
-                                    <li><span class="text-info text-uppercase">Tuổi:</span> 8</li>
-
-                                    <li><span class="text-info text-uppercase">Gới tính:</span> Nam</li>
-                                    <li><span class="text-info text-uppercase">Điểm học bạ:</span> 9</li>
-                                    <li><span class="text-info text-uppercase">Hỏi đáp:</span> 9 câu hỏi</li>
-                                    <li><span class="text-info text-uppercase">Tham gia tích cực:</span> 12h</li>
-
-                                </ul>
-                            </div>
-                            <button class="btn-danger logout-user">Thoát tài khoản</button>
-                        </div>
-                        <!-- END MENU -->
+        <div class="e3-quiz container wow fadeInUp">
+            <div class="title-quiz">
+                <span class="title-quiz-name d-flex justify-content-center text-uppercase">Bài kiểm tra lớp 3</span>
+                <span class="title-quiz-name2 text-uppercase d-flex justify-content-center">
+                    unit 6: stand up!
+                </span>
+            </div>
+            <div class="privew wow fadeInUp">
+                <div class="questionsBox wow fadeInUp">
+                    <div class="questions">Do you like hide-and-seek?
                     </div>
-                </div>
-                <div class="col-md-9 wow fadeInUp">
-                    <div class="profile-content">
-                        <div class="profile-greeting d-flex justify-content-center">
-                            <span class="text-uppercase text-white mt-2">Chào mừng bạn đến với góc học tập của
-                                tôi</span>
-                        </div>
-                        <hr>
-                        <div class="profile-thongbao d-flex justify-content-center">
-                            <span class="text-uppercase">Thông báo mới</span>
-                        </div>
-                        <div class="thongbao-content d-flex justify-content-center">
-                            <span class="text-uppercase">Không có thông báo mới</span>
-                        </div>
-                        <hr>
-                        <div class="profile-thongbao d-flex justify-content-center">
-                            <span class="text-uppercase">hỏi đáp</span>
-                        </div>
-                        <div class="comment">
-                            <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
-                            <script>
-                                tinymce.init({
-                                    selector: "textarea",
-                                    plugins: [
-                                        "advlist autolink lists link image charmap print preview anchor",
-                                        "searchreplace visualblocks code fullscreen",
-                                        "insertdatetime media table contextmenu paste"
-                                    ],
-                                    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
-                                });
-                            </script>
-                            <!-- the comment box -->
-                            <div class="well">
-                                <h4><i class="fa fa-paper-plane-o"></i> Mời bạn nhập câu hỏi</h4>
-                                <form role="form">
-                                    <div class="form-group">
-                                        <textarea class="form-control" rows="3"></textarea>
-                                    </div>
-                                    <button type="submit" name="say" value="" class="btn btn-primary"> Gửi đi</button>
-                                </form>
-                            </div>
-                            </script>
-                        </div>
-                    </div>
+                    <ul class="answerList">
+                        <li>
+                            <label>
+                                <input type="radio" name="answerGroup" value="0" id="answerGroup_0"> I play
+                                hide-and-seek</label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="answerGroup" value="1" id="answerGroup_1"> Yes, I am</label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="answerGroup" value="2" id="answerGroup_2"> No I don’t</label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="answerGroup" value="3" id="answerGroup_3"> No I do</label>
+                        </li>
+                    </ul>
+                    <div class="questionsRow"><a href="#" class="button" id="nextquestions">Next</a> <a href="#"
+                            class="button" id="skipquestions">Bỏ qua </a><span>2 / 20</span></div>
                 </div>
             </div>
         </div>
@@ -242,8 +178,7 @@
 
                         <!-- Content -->
                         <h5 class="text-uppercase">English3 - Tiếng Anh lớp 3</h5>
-                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor </p>
                     </div>
                     <!-- Grid column -->
